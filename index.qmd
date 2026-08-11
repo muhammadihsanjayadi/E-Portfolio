@@ -1,26 +1,21 @@
 ---
-title: "My E-Portfolio"
-image: images/MGEM_logo.png
+title: "Muhammad Jayadi"
+image: images/Profile_picture.jpg
 about:
   template: trestles
   image-width: 20em
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/MelserRamon
+      href: https://www.linkedin.com/in/muhammad-jayadi-181474328/
     - icon: github
       text: GitHub
-      href: https://github.com/ramonmelser
+      href: https://github.com/muhammadihsanjayadi
     - icon: envelope-at
       text: Email
-      href: mailto:melser@student.ubc.ca
+      href: mailto:muhammad.ihsan.jayadi34@gmail.com
 ---
 
-Hey there people,
+Hello! My name is Muhammad Jayadi. Welcome to my GIS E-Portfolio.
 
-This is your E-Portfolio landing page. Be sure to upload a professional headshot of yourself, and provide the appropriate links to your professional social media (linkedin, X/Twitter, etc). This is also a good place to provide a short summary of your education, career and interests. If you are associated with a lab or working with a research supervisor, it may be appropriate to provide some information on that here, along with links to relevant websites.
-
-Write something about myself, very exciting.
+This portfolio showcases my work and experience in geomatics, GIS, remote sensing, and environmental management.
