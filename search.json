@@ -9,9 +9,9 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Resume",
+    "title": "RESUME",
     "section": "",
-    "text": "Education\n\nList your education here.\n\n\n\nPublications\nPeer-reviewed publications:\n\nList any peer-reviewed publications here.\n\nReports:\n\nList any non-peer reviewed materials you’d like to share here.\n\n\n\nConferences & Talks\nInvited Talks\n\nIf you’ve been invited to speak in a professional setting, list that here.\n\nConference Presentations\n\nIf the presentation was at a conference, list them here.\n\n\n\nAwards & Honors\n\nList any scholarships, bursaries, etc.\n\n\n\nTeaching Assistantships\n\nList any TA positions you may have held.\n\n\n\nInstitutional Service\n\nVolunteering etc."
+    "text": "Geomatics graduate student with a BSc in Forest Resources Management and applied experience in GIS, remote sensing and forestry operations. Skilled in geospatial programming, workflow automation, statistical analysis and forest planning."
   },
   {
     "objectID": "publications.html",
@@ -54,5 +54,40 @@
     "title": "Content & Deliverables",
     "section": "",
     "text": "You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "resume.html#conference-presentations",
+    "href": "resume.html#conference-presentations",
+    "title": "RESUME",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\nMultidisciplinary Undergraduate Research Conference (MURC)\nApril 2024\n\nPresented a theoretical research project examining how stand density may influence lodgepole pine resilience to drought and mountain pine beetle attack, building on the literature reviewed for the related Canadian Journal of Undergraduate Research publication.\nCo-led a team of undergraduate students in developing and presenting the project."
+  },
+  {
+    "objectID": "resume.html#panels",
+    "href": "resume.html#panels",
+    "title": "RESUME",
+    "section": "Panels",
+    "text": "Panels\nYour Roman Empire: The 3 Pillars of Sustainability\nMarch 2026\n\nOrganized a panel exploring the ecological, economic, and social dimensions of sustainability."
+  },
+  {
+    "objectID": "resume.html#awards",
+    "href": "resume.html#awards",
+    "title": "RESUME",
+    "section": "Awards",
+    "text": "Awards\n\nOutstanding International Student Award\nRonald Elder Coastal Silviculture Committee Award"
+  },
+  {
+    "objectID": "resume.html#scholarships",
+    "href": "resume.html#scholarships",
+    "title": "RESUME",
+    "section": "Scholarships",
+    "text": "Scholarships\n\nFaculty of Forestry International Student Scholarship\nIndonesia Maju Scholarship"
+  },
+  {
+    "objectID": "resume.html#honours",
+    "href": "resume.html#honours",
+    "title": "RESUME",
+    "section": "Honours",
+    "text": "Honours\n\nDean’s Scholar — 2023/24, 2024/25, 2025/26"
   }
 ]

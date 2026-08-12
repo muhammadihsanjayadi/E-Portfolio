@@ -1,39 +1,110 @@
 ---
-title: "Resume"
+title: "RESUME"
+body-classes: resume-page
 ---
+
+# Professional Summary
+
+Geomatics graduate student with a BSc in Forest Resources Management and applied experience in GIS, remote sensing and forestry operations. Skilled in geospatial programming, workflow automation, statistical analysis and forest planning.
 
 # Education
 
--   List your education here.
+**University of British Columbia**  
+*Master of Geomatics for Environmental Management*  
+July 2026 – Present  
+Expected graduation: May 2027
 
-# Publications
+**University of British Columbia**  
+*Bachelor of Science in Forestry, Major in Forest Resources Management*  
+May 2022 – May 2026  
+GPA: 3.8 | Graduated with Distinction
 
-*Peer-reviewed publications:*
+# Work Experience
 
--   List any peer-reviewed publications here.
+**SBS Forestry Inc.**  
+*Forest Technician*  
+May 2025 – August 2025
 
-*Reports:*
+- Conducted harvest block layout and timber cruising to identify boundaries, access routes, operational constraints, and stand characteristics for harvest planning.
+- Processed aerial imagery and LiDAR data using ArcGIS to produce maps and spatial analyses supporting field operations and technical planning.
+- Prepared and managed QGIS and QField datasets for field use and synchronization of field observations with GIS databases.
 
--   List any non-peer reviewed materials you'd like to share here.
+# Research
 
-# Conferences & Talks
+**URO Research Experience Program**  
+November 2023 – May 2024
 
-*Invited Talks*
+- Published “Different levels of stand density in lodgepole pine incite dissimilar resilience to drought and mountain pine beetle attacks” literature review in the *Canadian Journal of Undergraduate Research*.
+- Practiced data collection, data analysis, quantitative skills, and academic writing under the mentorship of a PhD student.
 
--   If you've been invited to speak in a professional setting, list that here.
+# Presentations & Panels
 
-*Conference Presentations*
+## Conference Presentations
 
--   If the presentation was at a conference, list them here.
+**Multidisciplinary Undergraduate Research Conference (MURC)**  
+April 2024
 
-# Awards & Honors
+- Presented a theoretical research project examining how stand density may influence lodgepole pine resilience to drought and mountain pine beetle attack, building on the literature reviewed for the related *Canadian Journal of Undergraduate Research* publication.
+- Co-led a team of undergraduate students in developing and presenting the project.
 
--   List any scholarships, bursaries, etc.
+## Panels
 
-# Teaching Assistantships
+**Your Roman Empire: The 3 Pillars of Sustainability**  
+March 2026
 
--   List any TA positions you may have held.
+- Organized a panel exploring the ecological, economic, and social dimensions of sustainability.
 
-# Institutional Service
+# Awards & Scholarships
 
--   Volunteering etc.
+## Awards
+
+- **Outstanding International Student Award**
+- **Ronald Elder Coastal Silviculture Committee Award**
+
+## Scholarships
+
+- **Faculty of Forestry International Student Scholarship**
+- **Indonesia Maju Scholarship**
+
+## Honours
+
+- **Dean's Scholar** — 2023/24, 2024/25, 2025/26
+
+# Organizations & Activities
+
+**Forest History Association of British Columbia**  
+*Youth Delegate*  
+April 2026 – June 2026
+
+- Served as a youth delegate and contributed to association initiatives.
+- Developed a geospatial brochure and poster highlighting British Columbia museums and historic sites associated with forest history.
+
+**Beaty Biodiversity Museum**  
+January 2025
+
+- Prepared museum specimens, with a focus on tetrapod specimen preparation.
+
+**BIM at UBC**  
+June 2023
+
+- Led orientation activities for incoming Indonesian Faculty of Forestry students at UBC.
+
+# Technical Skills
+
+**Software & Platforms**  
+ArcGIS Pro, Survey123, QGIS, QField, Google Earth Engine, Patchworks
+
+**Programming & Scripting**  
+Python (ArcPy, PyQGIS), R, JavaScript, SQL, BeanShell
+
+**Geospatial Applications**  
+Spatial analysis, remote sensing, cartography, workflow automation, Web GIS
+
+**Statistical Analysis**  
+Regression analysis, model diagnostics, model selection, ANOVA
+
+**Forest Planning**  
+Forest estate modelling, timber supply analysis, forest management planning
+
+**Field Operations**  
+Harvest block layout, timber cruising, forest inventory, field data collection
