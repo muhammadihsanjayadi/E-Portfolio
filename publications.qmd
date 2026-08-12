@@ -1,7 +1,8 @@
 ---
-title: "Publications"
+title: "PUBLICATIONS"
+body-classes: publications-page
 ---
 
-*Peer-reviewed publications:*
+## Conference Publication
 
-Despite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to 'most recent' publications, or categorize things by project/topic. 
+Huang, V., & Jayadi, M. I. (2024). Different levels of stand density in lodgepole pine incite dissimilar resilience to drought and mountain pine beetle attacks. *Multidisciplinary Undergraduate Research Conference 2024*. Canadian Journal of Undergraduate Research, 145.
