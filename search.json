@@ -30,28 +30,28 @@
   {
     "objectID": "content.html",
     "href": "content.html",
-    "title": "Content & Deliverables",
+    "title": "PROJECTS",
     "section": "",
     "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
   {
     "objectID": "content.html#leaflet",
     "href": "content.html#leaflet",
-    "title": "Content & Deliverables",
+    "title": "PROJECTS",
     "section": "",
     "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here."
   },
   {
     "objectID": "content.html#code-snippets",
     "href": "content.html#code-snippets",
-    "title": "Content & Deliverables",
+    "title": "PROJECTS",
     "section": "",
     "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){\n  ndvi &lt;- (nir-red)/(nir+red)\n  return(ndvi)\n}\n(Assuming nir and red are terra rast objects)\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir - red)/(nir + red)\n  return(ndvi)\n(Assuming nir and red are numpy arrays)"
   },
   {
     "objectID": "content.html#external-links",
     "href": "content.html#external-links",
-    "title": "Content & Deliverables",
+    "title": "PROJECTS",
     "section": "",
     "text": "You can also provide a frame linking to external websites. For example, here is a Google Earth Engine application I developed - which I embedded in this webpage using the code below:\n\n\n&lt;iframe width=\"900\" height=\"700\"\nsrc=\"https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool\"&gt;\n&lt;/iframe&gt;\n\nThe full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
@@ -96,5 +96,33 @@
     "title": "PUBLICATIONS",
     "section": "",
     "text": "Huang, V., & Jayadi, M. I. (2024). Different levels of stand density in lodgepole pine incite dissimilar resilience to drought and mountain pine beetle attacks. Multidisciplinary Undergraduate Research Conference 2024. Canadian Journal of Undergraduate Research, 145."
+  },
+  {
+    "objectID": "content.html#project-overview",
+    "href": "content.html#project-overview",
+    "title": "PROJECTS",
+    "section": "Project Overview",
+    "text": "Project Overview\nLocated on the coast of Central Sulawesi, the Indonesia Morowali Industrial Park underwent rapid expansion during the study period following the start of nickel pig iron production in 2015. This project evaluates changes in the optical turbidity signal of adjacent coastal waters using Sentinel-2 Multispectral Instrument imagery acquired on 2 April 2016 and 6 April 2021.\nAn automated ArcPy workflow applies Sentinel-2 Scene Classification Layer masking, delineates water using the Normalized Difference Water Index (NDWI), and calculates the Normalized Difference Turbidity Index (NDTI). Water masks from the two dates are intersected to isolate persistent water for the multi-date change analysis. The results indicate widespread positive NDTI change, with the strongest increases concentrated along sections of shoreline adjacent to the industrial park."
+  },
+  {
+    "objectID": "content.html#deliverable",
+    "href": "content.html#deliverable",
+    "title": "PROJECTS",
+    "section": "Deliverable",
+    "text": "Deliverable"
+  },
+  {
+    "objectID": "content.html#project-overview-1",
+    "href": "content.html#project-overview-1",
+    "title": "PROJECTS",
+    "section": "Project Overview",
+    "text": "Project Overview\nGlobal Snow Persistence Explorer is an interactive Google Earth Engine application for exploring annual snow persistence worldwide using ERA5-Land data. Daily snow cover data are aggregated by calendar year to calculate snow-covered days and annual snow persistence, which is then classified into four snow persistence zones.\nThe application maps these zones, calculates their global area, and provides a location inspector for examining snow-covered days, annual snow persistence, monthly mean snow water equivalent (SWE), and glacier or ice cap information. It supports complete calendar years from 1951 to 2025. :contentReferenceoaicite:0"
+  },
+  {
+    "objectID": "content.html#deliverable-1",
+    "href": "content.html#deliverable-1",
+    "title": "PROJECTS",
+    "section": "Deliverable",
+    "text": "Deliverable\n\n\nOpen the Global Snow Persistence Explorer in a new window"
   }
 ]

@@ -3,7 +3,7 @@ project:
   output-dir: C:\Users\Muhammad Jayadi\Documents\GitHub\E-Portfolio
 
 website:
-  title: "Your E-Portfolio"
+  title: "Muhammad Jayadi | E-Portfolio"
   navbar:
     left:
       - href: index.qmd
@@ -13,7 +13,7 @@ website:
       - href: publications.qmd
         text: Publications
       - href: content.qmd
-        text: Content & Deliverables
+        text: Projects
 
 format:
   html:

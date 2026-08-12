@@ -1,6 +1,6 @@
 ---
 title: "Muhammad Jayadi"
-image: images/Profile_picture.jpg
+image: images/Profile_picture-modified.png
 about:
   template: trestles
   image-width: 20em
