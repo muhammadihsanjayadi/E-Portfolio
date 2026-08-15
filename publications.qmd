@@ -1,8 +1,0 @@
----
-title: "PUBLICATIONS"
-body-classes: publications-page
----
-
-## Conference Publication
-
-Huang, V., & Jayadi, M. I. (2024). Different levels of stand density in lodgepole pine incite dissimilar resilience to drought and mountain pine beetle attacks. *Multidisciplinary Undergraduate Research Conference 2024*. Canadian Journal of Undergraduate Research, 145.

@@ -5,40 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Muhammad Jayadi | E-Portfolio</title>
+  <title>Projects | Muhammad Jayadi</title>
 
   <link rel="stylesheet" href="styles.css">
 
   <style>
 
-    .hero {
-      padding-bottom: 45px;
+    .portfolio-index-heading {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 80px 28px 35px;
+      text-align: center;
     }
 
-    .projects-section {
-      padding-top: 50px;
-    }
-
-    .hero-content h1 {
-      font-size: clamp(2.3rem, 3vw, 3.25rem);
-      line-height: 1.02;
-      letter-spacing: -0.035em;
+    .portfolio-index-heading h1 {
+      font-size: clamp(4rem, 8vw, 7rem);
+      line-height: 0.95;
+      letter-spacing: -0.045em;
       font-weight: 800;
-      margin-bottom: 30px;
+    }
+
+    .portfolio-index-grid {
+      padding-top: 35px;
+    }
+
+    .project-metadata {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .metadata-tag {
+      display: inline-block;
+      border: 1px solid #171717;
+      padding: 6px 9px;
+      font-size: 0.72rem;
+      line-height: 1;
+    }
+
+    .metadata-tag strong {
+      font-weight: 800;
+      letter-spacing: 0.04em;
     }
 
     @media (max-width: 800px) {
 
-      .hero {
-        padding-bottom: 40px;
+      .portfolio-index-heading {
+        padding-top: 60px;
+        padding-bottom: 25px;
       }
 
-      .projects-section {
-        padding-top: 40px;
-      }
-
-      .hero-content h1 {
-        font-size: clamp(2.4rem, 10vw, 3.5rem);
+      .portfolio-index-grid {
+        padding-top: 25px;
       }
 
     }
@@ -74,76 +93,16 @@
 
   <main>
 
-    <!-- Hero -->
+    <!-- Page Heading -->
 
-    <section class="hero">
-
-      <div class="hero-image">
-
-        <img
-          src="images/Profile_picture-modified.png"
-          alt="Muhammad Jayadi"
-        >
-
-      </div>
-
-
-      <div class="hero-content">
-
-        <h1>
-          MUHAMMAD JAYADI'S<br>
-          E-PORTFOLIO
-        </h1>
-
-
-        <p class="hero-intro">
-          I am a Master of Geomatics for Environmental Management (MGEM)
-          student at the University of British Columbia with a background in
-          forest resources management and applied experience in GIS, remote
-          sensing, geospatial programming, and environmental management.
-        </p>
-
-
-        <div class="hero-links">
-
-          <a href="resume.html">
-            Resume
-          </a>
-
-          <a href="projects.html">
-            Projects
-          </a>
-
-          <a href="contact.html">
-            Contact
-          </a>
-
-        </div>
-
-
-        <p class="hero-interests">
-          <strong>Interests:</strong>
-          GIS | Remote Sensing | Geospatial Programming |
-          Spatial Analysis | Environmental Management | Forestry
-        </p>
-
-      </div>
-
+    <section class="portfolio-index-heading">
+      <h1>PROJECTS</h1>
     </section>
 
 
-    <!-- Project Highlights -->
+    <!-- Projects Grid -->
 
-    <section class="projects-section">
-
-      <div class="section-heading">
-
-        <h2>
-          Project Highlights
-        </h2>
-
-      </div>
-
+    <section class="projects-section portfolio-index-grid">
 
       <div class="projects-grid">
 
@@ -167,9 +126,18 @@
 
           <div class="project-content">
 
-            <p class="project-type">
-              ArcGIS Pro • Python (ArcPy)
-            </p>
+            <div class="project-metadata">
+
+              <span class="metadata-tag">
+                <strong>PLATFORM:</strong> ArcGIS Pro
+              </span>
+
+              <span class="metadata-tag">
+                <strong>LANGUAGE:</strong> Python (ArcPy)
+              </span>
+
+            </div>
+
 
             <h3>
               Coastal Turbidity Analysis
@@ -212,9 +180,18 @@
 
           <div class="project-content">
 
-            <p class="project-type">
-              Google Earth Engine • JavaScript
-            </p>
+            <div class="project-metadata">
+
+              <span class="metadata-tag">
+                <strong>PLATFORM:</strong> Google Earth Engine
+              </span>
+
+              <span class="metadata-tag">
+                <strong>LANGUAGE:</strong> JavaScript
+              </span>
+
+            </div>
+
 
             <h3>
               Global Snow Persistence Explorer
@@ -249,7 +226,6 @@
   <footer class="site-footer">
     <p>© 2026 Muhammad Jayadi</p>
   </footer>
-
 
 </body>
 
