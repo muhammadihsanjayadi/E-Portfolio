@@ -19,6 +19,11 @@
       padding-top: 50px;
     }
 
+    .projects-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 36px;
+    }
+
     .hero-content h1 {
       font-size: clamp(2.3rem, 3vw, 3.25rem);
       line-height: 1.02;
@@ -35,6 +40,11 @@
 
       .projects-section {
         padding-top: 40px;
+      }
+
+      .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
       }
 
       .hero-content h1 {
@@ -146,6 +156,52 @@
 
 
       <div class="projects-grid">
+
+
+
+        <!-- BC Historical Wildfire Explorer -->
+
+        <article class="project-card">
+
+          <a
+            class="project-image"
+            href="bc-historical-wildfire-explorer.html"
+          >
+
+            <img
+              src="images/bc_historical_wildfire_explorer.png"
+              alt="BC Historical Wildfire Explorer web GIS showing historical wildfire records and fire-management boundaries"
+            >
+
+          </a>
+
+
+          <div class="project-content">
+
+            <p class="project-type">
+              PostgreSQL/PostGIS • React/Leaflet
+            </p>
+
+            <h3>
+              BC Historical Wildfire Explorer
+            </h3>
+
+            <p>
+              Full-stack web GIS for exploring 23,306 historical wildfire
+              records across British Columbia using PostgreSQL/PostGIS,
+              Node.js/Express, React, and Leaflet.
+            </p>
+
+            <a
+              class="project-link"
+              href="bc-historical-wildfire-explorer.html"
+            >
+              View Project →
+            </a>
+
+          </div>
+
+        </article>
 
 
         <!-- Coastal Turbidity Analysis -->
