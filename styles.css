@@ -462,6 +462,31 @@ img {
   margin-top: 8px;
 }
 
+
+.certificate-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 36px 50px;
+}
+
+.certificate-group h3 {
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.certificate-group ul {
+  padding-left: 18px;
+}
+
+.certificate-group li {
+  line-height: 1.6;
+}
+
+.certificate-group li + li {
+  margin-top: 8px;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -788,6 +813,13 @@ img {
 
     gap: 28px;
   }
+
+  .certificate-groups {
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+  }
+
 
   .skills-grid {
     grid-template-columns: 1fr;
